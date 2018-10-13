@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project version="1.10" product="Q-Speech" productMajor="3" productMinor="41" productNyBuild="112916" productRevision="00">
+  <InformationGroup>
+    <Information name="IcName" text="NY3B021C" />
+    <Information name="Series" text="NY3BC" />
+    <Information name="Client" text="phuong" />
+    <Information name="ProjectNumber" text="conhuou" />
+    <Information name="ProjectName" text="conhuou" />
+    <Information name="Description" text="" />
+    <Information name="ProjectDir" text="C:\Users\NCL\Desktop\Huou" />
+  </InformationGroup>
+  <SettingGroup>
+    <Setting>
+      <Option name="VDD" text="V30" />
+      <Option name="PlaySpeed" text="F6000" />
+      <Option name="PowerOnPlay" text="Disabled" />
+      <Option name="PowerOnLoop" text="Disabled" />
+      <Option name="InternalFeedback" text="None" />
+      <Option name="ToggleOnOff" text="Disabled" />
+      <Option name="SentenceSeq" text="Disabled" />
+    </Setting>
+    <Pin name="OKY1">
+      <Option name="IO" text="Input" />
+      <Option name="InputType" text="Floating" />
+      <Option name="EL" text="Edge" />
+      <Option name="UH" text="Unhold" />
+      <Option name="RI" text="Retrigger" />
+      <Option name="Debounce" text="Long" />
+      <Option name="Range" text="-1" />
+      <Option name="Range_2nd" text="-1" />
+      <Option name="OutputType" text="Stop_HighPulse" />
+      <Option name="EL_2nd" text="Edge" />
+      <Option name="UH_2nd" text="Unhold" />
+      <Option name="RI_2nd" text="Retrigger" />
+    </Pin>
+    <Pin name="IO1">
+      <Option name="IO" text="Input" />
+      <Option name="InputType" text="CDS_M15" />
+      <Option name="EL" text="Edge" />
+      <Option name="UH" text="Unhold" />
+      <Option name="RI" text="Retrigger" />
+      <Option name="Debounce" text="Long" />
+      <Option name="Range" text="-1" />
+      <Option name="Range_2nd" text="-1" />
+      <Option name="OutputType" text="Stop_HighPulse" />
+      <Option name="EL_2nd" text="Edge" />
+      <Option name="UH_2nd" text="Unhold" />
+      <Option name="RI_2nd" text="Retrigger" />
+    </Pin>
+  </SettingGroup>
+  <SectionGroup>
+    <Section name="Voice">
+      <Node songFile="C:\Users\NCL\Desktop\Huou\1-10\0.nyw" mute="0" factor="F6" ageStamp="636264820278629997" />
+    </Section>
+  </SectionGroup>
+  <PinGroup>
+    <Option name="PopSentence" text="0" />
+    <Option name="PopSentence_2nd" text="-1" />
+    <SentencePin name="OKY1">
+      <SentenceGroup>
+        <Sentence name="0">
+          <Step sectionname="V000" oky1="None" io1="None" />
+        </Sentence>
+      </SentenceGroup>
+    </SentencePin>
+    <SentencePin name="IO1">
+      <SentenceGroup>
+        <Sentence name="0">
+          <Step sectionname="V000" oky1="None" io1="None" />
+        </Sentence>
+      </SentenceGroup>
+    </SentencePin>
+  </PinGroup>
+</Project>
